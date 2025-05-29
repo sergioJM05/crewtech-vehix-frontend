@@ -1,0 +1,206 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+
+.mat-card-header-container-login {
+  display: flex;
+  width: auto;
+  text-align: right;
+  height: auto;
+  font-size: 80px;
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+  font-weight: 100;
+  letter-spacing: 15px;
+}
+
+.mat-card-subtitle-container-login{
+  display: flex;
+  width: auto;
+  text-align: center;
+  height: auto;
+  font-size: 30px;
+  font-family: 'Roboto', sans-serif;
+  color: white;
+  font-weight: 50;
+}
+
+.mat-card-content-container-login {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  height: 100%;
+  width: 80%;
+
+}
+
+.mat-form-field-input-login{
+  display: flex;
+  justify-content: space-between;
+  --mat-sys-surface-variant: transparent;
+  --mat-sys-primary: white;
+  color: white;
+}
+
+
+.button-create-account{
+  --mat-sys-primary: white;
+}
+
+.button-login{
+  --mat-sys-primary:black;
+}
+
+.button-login:not(:disabled){
+  color: white;
+  background-color: transparent;
+  border: 1px solid white;
+}
+
+
+.card-container-login {
+  display: flex;
+  width: 25vw;
+  height: 60vh;
+  background-color: rgb(28,28,28,0.58);
+  z-index: 1;
+  align-items: center;
+  gap: 1rem;
+}
+
+
+.background-video-login {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  transform: translate(-50%, -50%);
+
+  z-index: -1;
+  object-fit: cover;
+  object-position: center;
+}
+
+
+.mat-mdc-form-field .mat-mdc-input-element {
+  color: white;
+}
+
+
+.mat-mdc-form-field .mat-mdc-floating-label {
+  color: white;
+}
+
+
+.mat-mdc-form-field .mat-mdc-input-element::placeholder {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.mat-mdc-form-field .mat-mdc-form-field-subscript-wrapper {
+  color: white;
+}
+
+.main-container-login {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+  position: relative;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+}
+
+
+/**
+  * Style to Registration Card
+ */
+
+.main-container-registration{
+  display: flex;
+  width: 60vw;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.card-container-registration{
+  width: 50vh;
+  gap: 0rem;
+  justify-content: end;
+  background-color: white;
+  border: 1px solid black;
+  padding: 1rem;
+  border-radius: 40px;
+}
+
+.mat-card-content-container-registration{
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.mat-card-header-container-registration{
+  margin-left: 2.5rem;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  font-size: 50px;
+  font-family: 'Montserrat', sans-serif;
+  letter-spacing: 50px;
+}
+.mat-card-subtitle-container-registration{
+  text-align: center;
+}
+
+.background-video-registration{
+  position: absolute;
+  top: 50%;
+  left: 0;
+  max-width: 145vh;
+  min-height: 100vh;
+  min-width: auto;
+  transform: translateY(-50%);
+
+  object-fit: cover;
+  object-position: left;
+  z-index: -1;
+}
+
+.mat-form-field-input-name-registration,
+.mat-form-field-input-surname-registration,
+.mat-form-field-input-email-registration,
+.mat-form-field-input-password-registration,
+.mat-form-field-phone-number-registration,
+.mat-form-field-input-dni-registration{
+  display: flex;
+  --mat-sys-surface-variant: transparent;
+  --mat-sys-primary: black;
+  color: black;
+}
+
+.mat-mdc-form-field[_ngcontent-ng-c4254797362] .mat-mdc-input-element[_ngcontent-ng-c4254797362] {
+  color: #000000;
+}
+
+.button-registration{
+  --mat-sys-primary: black;
+  border: 1px solid black;
+}
+
+.button-have-account{
+  --mat-sys-primary:black;
+}
+
+mat-radio-group{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 1rem;
+}

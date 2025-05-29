@@ -1,0 +1,24 @@
+<mat-card class="estimated-life">
+  <mat-card-title class="title">
+    Estimated Life
+  </mat-card-title>
+  <mat-card-content>
+    Based on real-time data and historical trends, the current life estimate suggests that your vehicle has 5.2 years
+    of
+    healthy operation remaining under the current driving habits.
+  </mat-card-content>
+
+  <div class="gauge-container">
+    <svg viewBox="0 0 200 100" class="gauge">
+      <!-- Semicírculo base -->
+      <path d="M 10 100 A 90 90 0 0 1 190 100" stroke="#DBDBDB" stroke-width="10" fill="none"/>
+      <!-- Marcador actual (e.g., 5.2 años sobre 10) -->
+      <path d="M 10 100 A 90 90 0 0 1 155 29" stroke="black" stroke-width="10" fill="none"/>
+      <!-- Etiquetas -->
+      <text x="20" y="95" font-size="10">0 yr</text>
+      <text x="180" y="95" font-size="10" text-anchor="end">10 yr</text>
+    </svg>
+
+    <div class="life-value">6.2 years</div>
+  </div>
+</mat-card>

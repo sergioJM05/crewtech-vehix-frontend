@@ -1,0 +1,14 @@
+<div class="failures-container">
+  @for (failure of failures; track failure.title) {
+    <app-failure-item
+      [title]="failure.title"
+      [description]="failure.description"
+      [solution]="failure.solutions"
+      [isSolved]="failure.isSolved">
+    </app-failure-item>
+  }
+</div>
+<div>
+  <app-btn-generate-report></app-btn-generate-report>
+</div>
+

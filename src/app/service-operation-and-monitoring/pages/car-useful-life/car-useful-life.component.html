@@ -1,0 +1,23 @@
+<div class="main-container">
+  <div class="vehicle-container">
+    @for (vehicle of vehicleList; track vehicle) {
+      <app-show-car
+        [sectionTitle]="sectionTitle"
+        [nameCar]="vehicle.name"
+        [imageCar]="vehicle.imageUrl">
+      </app-show-car>
+    }
+    <app-progress-bar></app-progress-bar>
+  </div>
+  <div class="tables-container">
+    <div class="container-alerts">
+      <mat-card class="mileage-card">
+        <h2 class="title">Monthly mileage timeline</h2>
+        <app-timeline></app-timeline>
+      </mat-card>
+    </div>
+    <div class="alert-life">
+      <app-estimated-life>x</app-estimated-life>
+    </div>
+  </div>
+</div>

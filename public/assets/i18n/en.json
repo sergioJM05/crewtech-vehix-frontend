@@ -1,0 +1,71 @@
+{
+  "home": "Home",
+  "sync": "Sync",
+  "library": "Library",
+  "maintenance": "Maintenance",
+  "profile": "Profile",
+  "login": {
+    "title": "Login",
+    "dni": "DNI",
+    "password": "Password",
+    "createAccount": "Create an account"
+  },
+  "register": {
+    "title": "Create account",
+    "name": "Name",
+    "surname": "Surname",
+    "email": "Email",
+    "password": "Password",
+    "phoneNumber": "Phone number",
+    "dni": "DNI",
+    "gender": "Gender",
+    "male": "Male",
+    "female": "Female",
+    "alreadyHaveAccount": "Already have and account?"
+  },
+
+  "plan": {
+    "title": "Plan",
+    "standard": "Standard",
+    "pro": "Pro",
+    "termPro": "**Includes the benefits of the Standard Plan",
+    "benefitPro1": "Technical library customized to the vehicle's requirements",
+    "benefitPro2": "Data statistics and smart analysis",
+    "benefitPro3": "Save and add more vehicles",
+    "benefitPro4": "Advanced vehicle status display",
+    "benefitPro5": "Detecting and reading error codes",
+    "benefitPro6": "Fast, personalized and close help",
+    "benefitPro7": "Vehix Scanner free",
+    "termStandard": "**Ideal for owners looking for basic support in caring for their vehicle",
+    "benefitStandard1": "Access to the web and mobile application",
+    "benefitStandard2": "Preventive maintenance alerts",
+    "benefitStandard3": "Recording and viewing vehicle technical history",
+    "benefitStandard4": "Assistance with tips and recommendations from the basic automotive care library",
+    "benefitStandard5": "Real-time vehicle scanning",
+    "benefitStandard6": "VEHIX Scanner (30% discount, does not include shipping)",
+    "monthlyMembership": "Monthly"
+  },
+  "profileCard": {
+    "title": "Personal Information",
+    "name": "Names",
+    "surname": "Surnames",
+    "email": "Email",
+    "phoneNumber": "Phone Number",
+    "dni": "DNI",
+    "password": "Password",
+    "logout": "Logout"
+  },
+
+  "button": {
+    "save": "Save",
+    "cancel": "Cancel",
+    "login": "Login",
+    "register": "Register",
+    "editProfile": "Edit Profile",
+    "selectPlan": "Select Plan",
+    "continue": "Continue",
+    "logout": "Logout",
+    "activateDriverMode": "Activate Driver Mode",
+    "edit": "Edit"
+  }
+}

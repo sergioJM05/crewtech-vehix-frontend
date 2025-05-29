@@ -1,0 +1,10 @@
+<div class="mechanic-list">
+  @for (mechanic of mechanics; track mechanic.name) {
+    <app-mechanic-card
+      [name]="mechanic.name"
+      [address]="mechanic.vicinity"
+      [distance]="mechanic.distance"
+      [phone]="mechanic.phone"
+    ></app-mechanic-card>
+  }
+</div>

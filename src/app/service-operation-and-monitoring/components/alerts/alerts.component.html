@@ -1,0 +1,29 @@
+<div class="table-container-main">
+<h2>Registered Alerts</h2>
+
+<table mat-table [dataSource]="alertsList" class="mat-elevation-z8">
+
+  <!-- Name Column -->
+  <ng-container matColumnDef="name">
+    <th mat-header-cell *matHeaderCellDef> Alert Name </th>
+    <td mat-cell *matCellDef="let alert"> {{alert.alertName}} </td>
+  </ng-container>
+
+  <!-- Type Column -->
+  <ng-container matColumnDef="type">
+    <th mat-header-cell *matHeaderCellDef> Alert Type </th>
+    <td mat-cell *matCellDef="let alert"> {{alert.alertType}} </td>
+  </ng-container>
+
+  <!-- Status Column -->
+  <ng-container matColumnDef="status">
+    <th mat-header-cell *matHeaderCellDef> Status </th>
+    <td mat-cell *matCellDef="let alert"> {{alert.status}} </td>
+  </ng-container>
+
+  <!-- Table Header and Rows -->
+  <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+  <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
+
+</table>
+</div>

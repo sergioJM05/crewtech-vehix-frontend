@@ -1,0 +1,17 @@
+
+<div class="main-container">
+<h1>Probability of failure in the future</h1>
+
+  <div class="probabilities-container">
+    <ul>
+      @for (problem of probabilities.futureProblems; track problem) {
+        <div class="probabilities-container">
+        <li>
+          {{problem.probability}}% {{problem.problem}}
+        </li>
+        </div>
+      }
+    </ul>
+  </div>
+
+</div>

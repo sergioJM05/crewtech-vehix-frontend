@@ -1,0 +1,19 @@
+<div class="technical-errors-box">
+  <h3>Technical Errors</h3>
+  <ul class="error-list">
+    @for (error of errors; track error.id) {
+      <li class="error-item {{ getUrgencyClass(error.urgency) }}">
+        <span class="dot"></span>
+        <strong>{{ error.code }} – {{ error.description }}</strong><br>
+        🔧 Suggested solution:<br>
+        {{ error.suggestion }}
+      </li>
+    }
+  </ul>
+
+  <div class="seek-help-btn-container">
+    <button class="seek-help-btn" (click)="openMechanicPage()" routerLinkActive="active">
+      Seek Help
+    </button>
+  </div>
+</div>

@@ -1,0 +1,12 @@
+<div class="app">
+  <h1 style="text-align: left"></h1>
+  <div class="left-column">
+    <div class="overlay-text">
+    </div>
+    <app-mechanic-map (updateMechanics)="updateMechanics($event)"></app-mechanic-map>
+  </div>
+  <div class="right-column">
+    <app-mechanic-card-list [mechanics]="mechanics"></app-mechanic-card-list>
+    <button class="repair-button">press to continuos</button>
+  </div>
+</div>

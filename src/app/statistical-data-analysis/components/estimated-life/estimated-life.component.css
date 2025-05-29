@@ -1,0 +1,42 @@
+.estimated-life {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+
+  width: 100%;
+  padding: 16px;
+  min-width: 50%;
+  margin-bottom: 20px;
+}
+
+.title {
+  padding: 20px;
+  font-size: 20px;
+  margin-bottom: 10px;
+  font-weight: bold;
+  display: flex;
+  margin-left: -10px;
+}
+
+.gauge-container {
+  padding: 2%;
+  position: relative;
+  width: 200px;
+  margin: 0 auto;
+}
+
+.gauge {
+  width: 100%;
+  height: auto;
+}
+
+.life-value {
+  padding: 4%;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 16px;
+  font-weight: bold;
+}

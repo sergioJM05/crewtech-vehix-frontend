@@ -1,0 +1,65 @@
+  @if (!registerMode) {
+    <div class="main-container-login">
+      <video class="background-video-login" loop autoplay muted playsinline src="https://va.media.tumblr.com/tumblr_swswdyvAxT1ah01bq.mp4"></video>
+
+      <mat-card class="card-container-login" appearance="outlined">
+        <mat-card-header class="mat-card-header-container-login">VEHIX</mat-card-header>
+        <mat-card-subtitle class="mat-card-subtitle-container-login">{{"login.title" | translate}}</mat-card-subtitle>
+        <mat-card-content  class="mat-card-content-container-login">
+          <mat-form-field class="mat-form-field-input-login">
+            <mat-label>{{"login.dni" | translate}}</mat-label>
+            <input matInput placeholder="42126584" [(ngModel)]="dni" >
+          </mat-form-field>
+          <mat-form-field class="mat-form-field-input-login">
+            <mat-label>{{"login.password" | translate}}</mat-label>
+            <input matInput [(ngModel)]="password">
+          </mat-form-field>
+
+          <a mat-raised-button class="button-login" (click)="validateLogin()">{{"login.title" | translate}}</a>
+          <a mat-button class="button-create-account" (click)="changeMoodLoginAndRegister()">{{"login.createAccount" | translate}}</a>
+
+        </mat-card-content>
+      </mat-card>
+    </div>
+  } @else {
+    <div class="main-container-registration">
+      <video class="background-video-registration" loop autoplay muted playsinline src="https://va.media.tumblr.com/tumblr_swu5y22xmE1ah01bq.mp4"></video>
+      <mat-card class="card-container-registration" appearance="outlined">
+        <mat-card-header class="mat-card-header-container-registration">VEHIX</mat-card-header>
+        <mat-card-subtitle class="mat-card-subtitle-container-registration">{{"register.title" | translate}}</mat-card-subtitle>
+        <mat-card-content class="mat-card-content-container-registration">
+          <mat-form-field class="mat-form-field-input-name-registration">
+            <mat-label>{{"register.name" | translate}}</mat-label>
+            <input matInput placeholder="42126584" [(ngModel)]="name" >
+          </mat-form-field>
+          <mat-form-field class="mat-form-field-input-surname-registration">
+            <mat-label>{{"register.surname" | translate}}</mat-label>
+            <input matInput [(ngModel)]="surname">
+          </mat-form-field>
+          <mat-form-field class="mat-form-field-input-email-registration">
+            <mat-label>{{"register.email" | translate}}</mat-label>
+            <input matInput placeholder="42126584" [(ngModel)]="email" >
+          </mat-form-field>
+          <mat-form-field class="mat-form-field-input-password-registration">
+            <mat-label>{{"register.password" | translate}}</mat-label>
+            <input matInput [(ngModel)]="password">
+          </mat-form-field>
+          <mat-form-field class="mat-form-field-phone-number-registration">
+            <mat-label>{{"register.phoneNumber" | translate}}</mat-label>
+            <input matInput placeholder="42126584" [(ngModel)]="phoneNumber" >
+          </mat-form-field>
+          <mat-form-field class="mat-form-field-input-dni-registration">
+            <mat-label>{{"register.dni" | translate}}</mat-label>
+            <input matInput [(ngModel)]="dni">
+          </mat-form-field>
+          <mat-radio-group aria-label="Select your gender" [(ngModel)]="gender">
+            {{"register.gender" | translate}}:
+            <mat-radio-button value="male"> {{"register.male" | translate}}</mat-radio-button>
+            <mat-radio-button value="female"> {{"register.female" | translate}}</mat-radio-button>
+          </mat-radio-group>
+          <a mat-raised-button class="button-registration" (click)="createNewUserAccount()">{{"register.title" | translate}}</a>
+          <a mat-button class="button-have-account" (click)="changeMoodLoginAndRegister()">{{"register.alreadyHaveAccount" | translate}}</a>
+        </mat-card-content>
+      </mat-card>
+    </div>
+  }

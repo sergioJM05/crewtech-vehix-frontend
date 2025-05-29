@@ -1,0 +1,57 @@
+<h1>Quick vehicle status</h1>
+<div class="main-container">
+
+  <div class="status-row">
+    <h2>Engine</h2>
+    <div class="system-container">
+      <mat-progress-spinner
+        [value]="status.engineHealth"
+        mode="determinate"
+        style="--mdc-circular-progress-active-indicator-color:black">
+      </mat-progress-spinner>
+      <div class="spinner-text">{{ status.engineHealth }}%</div>
+    </div>
+  </div>
+
+  <div class="status-row">
+    <h2>Battery</h2>
+    <div class="system-container">
+      <mat-progress-spinner
+        [value]="status.batteryHealth"
+        mode="determinate"
+        style="--mdc-circular-progress-active-indicator-color:black">
+      </mat-progress-spinner>
+      <div class="spinner-text">{{ status.batteryHealth }}%</div>
+    </div>
+  </div>
+
+  <div class="status-row">
+    <h2>Brakes</h2>
+    <div class="system-container">
+      <mat-progress-spinner
+        [value]="status.brakeHealth"
+        mode="determinate"
+        style="--mdc-circular-progress-active-indicator-color:black">
+      </mat-progress-spinner>
+      <div class="spinner-text">{{ status.brakeHealth }}%</div>
+    </div>
+  </div>
+
+  <div class="status-row">
+    <h2>Sensors</h2>
+    <div class="system-container">
+      <mat-progress-spinner
+        [value]="status.sensorHealth"
+        mode="determinate"
+        style="--mdc-circular-progress-active-indicator-color:black">
+      </mat-progress-spinner>
+      <div class="spinner-text">{{ status.sensorHealth }}%</div>
+    </div>
+  </div>
+
+  <h1>Results</h1>
+  <div class="general-report-container">
+    <p>{{ status.generalReport }}</p>
+  </div>
+
+</div>

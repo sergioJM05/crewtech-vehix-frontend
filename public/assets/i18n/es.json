@@ -1,0 +1,72 @@
+{
+  "home": "Inicio",
+  "sync": "Sincronicación",
+  "library": "Biblioteca",
+  "maintenance": "Mantenimiento",
+  "profile": "Perfil",
+  "login": {
+    "title": "Iniciar sesión",
+    "dni": "DNI",
+    "password": "Contraseña",
+    "createAccount": "Crear una cuenta"
+  },
+  "register": {
+    "title": "Crear cuenta",
+    "name": "Nombre",
+    "surname": "Apellido",
+    "email": "Correo electrónico",
+    "password": "Contraseña",
+    "phoneNumber": "Número de teléfono",
+    "dni": "DNI",
+    "gender": "Género",
+    "male": "Masculino",
+    "female": "Femenino",
+    "alreadyHaveAccount": "¿Ya tienes una cuenta?"
+  },
+
+  "plan": {
+    "title": "Plan",
+    "standard": "Estándar",
+    "pro": "Pro",
+    "termPro": "**Incluye los beneficios del Plan Estándar",
+    "benefitPro1": "Biblioteca técnica personalizada a los requerimientos del vehículo",
+    "benefitPro2": "Estadísticas de datos y análisis inteligente",
+    "benefitPro3": "Guardar y añadir más vehículos",
+    "benefitPro4": "Visualización avanzada del estado del vehículo",
+    "benefitPro5": "Detección y lectura de códigos de error",
+    "benefitPro6": "Asistencia rápida, personalizada y cercana",
+    "benefitPro7": "Vehix Scanner gratis",
+    "termStandard": "**Ideal para propietarios que buscan un soporte básico en el cuidado de su vehículo",
+    "benefitStandard1": "Acceso a la aplicación web y móvil",
+    "benefitStandard2": "Alertas de mantenimiento preventivo",
+    "benefitStandard3": "Registro y visualización del historial técnico del vehículo",
+    "benefitStandard4": "Asistencia con consejos y recomendaciones de la biblioteca básica de cuidado automotriz",
+    "benefitStandard5": "Escaneo en tiempo real del vehículo",
+    "benefitStandard6": "VEHIX Scanner (30% de descuento, no incluye envío)",
+    "monthlyMembership": "Mensual"
+  },
+
+  "profileCard": {
+    "title": "Información Personal",
+    "name": "Nombres",
+    "surname": "Apellidos",
+    "email": "Correo Electrónico",
+    "phoneNumber": "Número de Teléfono",
+    "dni": "DNI",
+    "password": "Contraseña",
+    "logout": "Cerrar sesión"
+  },
+
+  "button": {
+    "save": "Guardar",
+    "cancel": "Cancelar",
+    "login": "Iniciar sesión",
+    "register": "Registrarse",
+    "editProfile": "Editar perfil",
+    "selectPlan": "Seleccionar plan",
+    "continue": "Continuar",
+    "logout": "Cerrar sesión",
+    "activateDriverMode": "Activar modo conductor",
+    "edit": "Editar"
+  }
+}

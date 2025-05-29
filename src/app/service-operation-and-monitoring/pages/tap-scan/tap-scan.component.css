@@ -1,0 +1,50 @@
+.diagnostic-wrapper {
+  display: flex;
+  justify-content: flex-end;
+  gap: 2rem;
+  padding-right: 2rem;
+}
+
+.left-column {
+  position: absolute;
+  left: 10rem;
+  top: 15rem;
+}
+
+.center-column {
+  margin-right: 3rem;
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  margin-top: 2rem;
+}
+
+.right-column {
+  margin-top: 2rem;
+  margin-right: 5rem;
+}
+
+@media (min-width: 768px) {
+  .left-column {
+    width: 50%;
+  }
+  .right-column {
+    width: 50%;
+  }
+}
+
+@media (max-width: 480px) {
+  .overlay-text {
+    font-size: 18px;
+  }
+  .repair-button {
+    font-size: 18px;
+  }
+  .app {
+    flex-direction: column;
+  }
+  .left-column,
+  .right-column {
+    width: 100%;
+  }
+}

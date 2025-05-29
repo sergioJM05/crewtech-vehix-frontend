@@ -1,0 +1,72 @@
+*{
+  padding:0;
+  margin: auto;
+
+}
+
+h3{
+  font-family: 'Montserrat', sans-serif;
+  font-size:45px;
+  text-align: center;
+  font-weight: 900;
+  margin-bottom: 20px;
+
+}
+.container-vehicle-information{
+  display: flex;
+  height: calc(100vh - 100px);
+  width: 100%;
+}
+
+.left-comment, .right-comment{
+  font-family: 'Roboto', sans-serif;
+  font-size:30px;
+}
+
+.left-comment{
+  text-align: left;
+}
+.right-comment{
+  text-align: right;
+}
+
+.vehicle-card{
+  text-align: center;
+  align-items: center;
+  margin-right: 2rem;
+  margin-left: 2rem;
+  flex-grow: 1;
+}
+
+.main-container{
+  padding-left: 3rem;
+  padding-right: 3rem;
+}
+
+::ng-deep app-show-car img {
+  width: 950px ;
+}
+
+@media screen and (max-width: 1500px) {
+  div{
+    flex-direction: column;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+  ::ng-deep app-show-car img {
+    width: 50%;
+  }
+
+  .left-comment, .right-comment{
+    font-size: 20px;
+    text-align: center;
+  }
+
+  h3{
+    font-size: 40px;
+  }
+  .container-vehicle-information{
+    height: calc(100% - 90px);
+  }
+
+}

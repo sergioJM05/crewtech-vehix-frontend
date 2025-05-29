@@ -1,0 +1,29 @@
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+
+@if (showNavBar) {
+  <mat-toolbar class="main-toolbar">
+    <mat-toolbar-row class="toolbar-row">
+      <div class="header">
+        <h1 class="logo" alt="logo">VEHIX</h1>
+        <div class="nav"
+             id="nav">
+          <div class="menu-items">
+            @for (option of options; track option.label){
+              <div class="menu-item">
+                <a mat-button class="button"
+                   [routerLink]="option.link"
+                   routerLinkActive="active">
+                  <mat-icon>{{option.icon}}</mat-icon>{{option.label|translate}}</a>
+              </div>
+            }
+            <app-language-switcher/>
+          </div>
+        </div>
+
+      </div>
+    </mat-toolbar-row>
+  </mat-toolbar>
+} @else {
+  <app-language-switcher class="language-switcher-absolute"></app-language-switcher>
+}
+<router-outlet/>

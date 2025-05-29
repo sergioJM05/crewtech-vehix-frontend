@@ -1,0 +1,390 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Sergio Gino",
+      "lastName": "Julca Minaya",
+      "email": "u202318274@upc.edu.pe",
+      "password": "u202318274",
+      "phone": "202318274",
+      "dni": "0202318274",
+      "gender": "male"
+    },
+    {
+      "id": 2,
+      "name": "antonio",
+      "lastName": "navarrochinga",
+      "email": "u202314101@upc.edu.pe",
+      "password": "u202314101",
+      "phone": "202314101",
+      "dni": "0202314101",
+      "gender": "male"
+    },
+    {
+      "id": 3,
+      "name": "dayro",
+      "lastName": "riospiñan",
+      "email": "u202315283@upc.edu.pe",
+      "password": "u202315283",
+      "phone": "202315283",
+      "dni": "0202315283",
+      "gender": "male"
+    },
+    {
+      "id": 4,
+      "name": "moises",
+      "lastName": "espinozachavez",
+      "email": "u202221383@upc.edu.pe",
+      "password": "u202221383",
+      "phone": "202221383",
+      "dni": "0202221383",
+      "gender": "male"
+    }
+  ],
+  "vehicles": [
+    {
+      "id": 1,
+      "userId": 1,
+      "name": "Sergio Julca",
+      "brand": "Toyota",
+      "model": "Rush",
+      "milage": "2500",
+      "year": "2005",
+      "imageUrl": "https://atrexport.com/wp-content/uploads/2024/04/TOYOTA-RUSH-1.png",
+      "modelDescription": "The Toyota Rush is a compact yet spacious SUV designed for comfort and performance. It features a modern design with advanced safety and technology features, providing an excellent driving experience for urban and long-distance travel. With ample cargo space and a sleek exterior, the Rush stands out as a reliable and stylish vehicle for any adventure.",
+      "equipmentDescription": "The Toyota Rush comes equipped with a 1.5-liter engine, offering a great balance between fuel efficiency and performance. The exterior features a sporty design with sleek lines and bold accents, while the interior is designed for comfort with user-friendly controls and ample space. It's perfect for those who need a versatile vehicle that fits both family needs and urban lifestyles."
+    }
+  ],
+  "subscriptions": [
+    {
+      "id": "1",
+      "name": "Plan Standard",
+      "price": 65,
+      "initialDate": "2025-03-28T14:48:00.000Z",
+      "endDate": "2025-05-28T14:48:00.000Z"
+    },
+    {
+      "id": "2",
+      "name": "Plan Pro",
+      "price": 100,
+      "initialDate": "2025-03-28T14:48:00.000Z",
+      "endDate": "2025-05-28T14:48:00.000Z"
+    }
+  ],
+  "payments": [
+    {
+      "id": 1,
+      "contactEmail": "sergiogino8@gmail.com",
+      "cardNumber": "1234-5678-9012-3456",
+      "expirationDate": "2025-12",
+      "cvv": "123",
+      "shipmentPrice": 0,
+      "scanner": "false",
+      "userId": 1,
+      "directionId": 1
+    }
+  ],
+  "typePayments": [],
+  "directions": [
+    {
+      "id": 1,
+      "direction": "Av. Javier Prado Este 1234, San Isidro",
+      "city": "Lima",
+      "country": "Peru",
+      "postalCode": "15073",
+      "phoneContact": "123456789",
+      "province": "Lima",
+      "paymentId": 1
+    }
+  ],
+  "obsData": {
+    "simpleIssues": [
+      {
+        "id": 1,
+        "error": "Low battery level",
+        "description": "Battery charge is below 20%.",
+        "urgencyLevel": "Critical"
+      },
+      {
+        "id": 2,
+        "error": "Low tire pressure",
+        "description": "Front left tire pressure is below recommended level.",
+        "urgencyLevel": "Moderate"
+      },
+      {
+        "id": 3,
+        "error": "Low oil level",
+        "description": "Engine oil level is critically low.",
+        "urgencyLevel": "Critical"
+      },
+      {
+        "id": 4,
+        "error": "Dirty air filter",
+        "description": "Air filter needs replacement due to clogging.",
+        "urgencyLevel": "Mild"
+      }
+    ],
+    "technicalErrors": [
+      {
+        "id": 1,
+        "code": "P0523",
+        "description": "Low system voltage",
+        "possibleSolution": "Check alternator and battery connections.",
+        "errorType": "Critical"
+      },
+      {
+        "id": 2,
+        "code": "P0171",
+        "description": "System too lean",
+        "possibleSolution": "Inspect fuel injectors and air intake system.",
+        "errorType": "Moderate"
+      },
+      {
+        "id": 3,
+        "code": "P0300",
+        "description": "Random/Multiple Cylinder Misfire Detected",
+        "possibleSolution": "Check spark plugs, ignition coils, and fuel injectors.",
+        "errorType": "Critical"
+      },
+      {
+        "id": 4,
+        "code": "P0420",
+        "description": "Catalyst System Efficiency Below Threshold",
+        "possibleSolution": "Inspect catalytic converter and oxygen sensors.",
+        "errorType": "Moderate"
+      }
+    ]
+  },
+  "badPractices": [
+    {
+      "id": 1,
+      "issue": "Abrupt gear changes",
+      "description": "Frequent sudden gear shifts detected."
+    },
+    {
+      "id": 2,
+      "issue": "Improper clutch usage",
+      "description": "Clutch is being overused, causing wear."
+    },
+    {
+      "id": 3,
+      "issue": "Over-revving the engine",
+      "description": "Engine is frequently revved beyond recommended RPM limits, causing unnecessary wear."
+    },
+    {
+      "id": 4,
+      "issue": "Hard braking",
+      "description": "Frequent hard braking detected, leading to faster brake pad wear and potential damage to the braking system."
+    }
+  ],
+  "alerts": [
+    {
+      "id": 1,
+      "alertName": "Oil Change Required",
+      "alertType": "Moderate",
+      "status": "Unresolved"
+    },
+    {
+      "id": 2,
+      "alertName": "Battery Low",
+      "alertType": "Warning",
+      "status": "Resolved"
+    },
+    {
+      "id": 3,
+      "alertName": "Tire Pressure Low",
+      "alertType": "Warning",
+      "status": "Unresolved"
+    },
+    {
+      "id": 4,
+      "alertName": "Brake Fluid Low",
+      "alertType": "Critical",
+      "status": "Unresolved"
+    }
+  ],
+  "repairs": [
+    {
+      "id": 1,
+      "problemType": "Brake System",
+      "improvementPercentage": "+10%",
+      "repairDate": "2025-04-15"
+    },
+    {
+      "id": 2,
+      "problemType": "Suspension",
+      "improvementPercentage": "+20%",
+      "repairDate": "2025-03-10"
+    },
+    {
+      "id": 3,
+      "problemType": "Cooling System",
+      "improvementPercentage": "+25%",
+      "repairDate": "2025-05-20"
+    },
+    {
+      "id": 4,
+      "problemType": "Electrical System",
+      "improvementPercentage": "+15%",
+      "repairDate": "2025-03-05"
+    }
+  ],
+  "currentStatus": {
+    "engineHealth": 78,
+    "batteryHealth": 65,
+    "brakeHealth": 90,
+    "sensorHealth": 80,
+    "generalReport": "The vehicle is in fair condition but requires attention to the battery and engine."
+  },
+  "generalHealth": {
+    "healthPercentage": 72,
+    "last3MonthsMileage": {
+      "month1": 1500,
+      "month2": 985,
+      "month3": 457
+    },
+    "estimatedLifespan": {
+      "years": 5,
+      "description": "Based on real-time data and historical trends, the current life estimate suggests that your vehicle has 5 years of healthy operation remaining under the current driving habits."
+    },
+    "futureProblems": [
+      {
+        "id": 1,
+        "problem": " Worn discs or pads",
+        "probability": 5
+      },
+      {
+        "id": 2,
+        "problem": "Loss of hydraulic pressure",
+        "probability": 10
+      },
+      {
+        "id": 3,
+        "problem": "Loss of hydraulic pressure",
+        "probability": 10
+      },
+      {
+        "id": 4,
+        "problem": "Weakened shock absorbers",
+        "probability": 20
+      }
+    ]
+  },
+  "pronosticsCar": {
+    "suspension": 80,
+    "transmission": 75,
+    "engine": 78,
+    "steering": 85,
+    "cooling": 70,
+    "electronics": 65,
+    "fuelSystem": 80,
+    "brake": 90,
+    "report": "The vehicle's brake system is in excellent condition, while electronics and cooling require attention."
+  },
+  "audit": {
+    "systemHealth": {
+      "engineSystem": 78,
+      "transmissionSystem": 75,
+      "brakeSystem": 90,
+      "electricalSystem": 65,
+      "steeringSystem": 85,
+      "suspensionSystem": 80,
+      "fuelSystem": 80,
+      "coolingSystem": 70
+    },
+    "mainProblems": [
+      {
+        "id": 1,
+        "name": "Battery Issues",
+        "description": "The battery is showing signs of degradation, with reduced capacity and slower charging times. This may lead to starting issues and reduced performance of electrical components.",
+        "status": "Unresolved"
+      },
+      {
+        "id": 2,
+        "name": "Engine Oil",
+        "description": "The engine oil level is critically low, which can cause increased friction, overheating, and potential damage to engine components if not addressed promptly.",
+        "status": "Unresolved"
+      },
+      {
+        "id": 3,
+        "name": "Air Filter",
+        "description": "The air filter is clogged with dirt and debris, reducing airflow to the engine. This can lead to decreased fuel efficiency, reduced power, and higher emissions.",
+        "status": "Resolved"
+      },
+      {
+        "id": 4,
+        "name": "Cooling System",
+        "description": "The cooling system is underperforming due to potential leaks or blockages, leading to higher engine temperatures and increased risk of overheating during extended use.",
+        "status": "Unresolved"
+      }
+    ]
+  },
+  "failures": [
+    {
+      "id": 1,
+      "title": "Low system voltage",
+      "description": "The system detected low voltage levels, which could be caused by a malfunctioning speed sensor in the transmission. This may lead to power delivery issues. Suggested solution: Inspect the speed sensor and replace it if damaged.",
+      "solutions": "Inspect the speed sensor and replace it if damaged.",
+      "isSolved": true,
+      "vehicleId": 1
+    },
+    {
+      "id": 2,
+      "title": "Low coolant temperature",
+      "description": "This issue indicates that the oil level or oil pressure sensor is reporting abnormally low values, which can cause severe engine damage.",
+      "solutions": "Check the oil level and pressure sensor. If the problem persists, take the vehicle to a workshop immediately.",
+      "isSolved": false,
+      "vehicleId": 1
+    },
+    {
+      "id": 3,
+      "title": "Low oil pressure",
+      "description": "This issue indicates that the oil level or oil pressure sensor is reporting abnormally low values, which can cause severe engine damage",
+      "solutions": "Check the oil level and pressure sensor. If the problem persists, take the vehicle to a workshop immediately.",
+      "isSolved": true,
+      "vehicleId": 1
+    },
+    {
+      "id": 4,
+      "title": "Fuel sensor out of range",
+      "description": "The fuel level sensor is sending readings that are not within the expected values. This might affect fuel gauge accuracy.",
+      "solutions": "Check the fuel tank float or sensor. It may be stuck and require servicing or replacement.",
+      "isSolved": false,
+      "vehicleId": 1
+    }
+  ],
+  "report": [
+    {
+      "id": 1,
+      "vehicleId": 1,
+      "title": "Low system voltage",
+      "description": "Check the speed sensor in the transmission.",
+      "suggestedSolution": "It may require replacement if damaged.",
+      "comment": "asas"
+    },
+    {
+      "id": 2,
+      "vehicleId": 1,
+      "title": "Low coolant temperature",
+      "description": "Check the engine thermostat.",
+      "suggestedSolution": "If it’s stuck open, it needs to be replaced.",
+      "comment": "ugiv"
+    },
+    {
+      "id": 3,
+      "vehicleId": 1,
+      "title": "Low oil pressure",
+      "description": "Check the oil level and pressure sensor.",
+      "suggestedSolution": "Do not continue driving if the problem persists. Take the vehicle to a workshop immediately.",
+      "comment": ""
+    },
+    {
+      "id": 4,
+      "vehicleId": 1,
+      "title": "Fuel sensor out of range",
+      "description": "Check the fuel tank float or sensor.",
+      "suggestedSolution": "It could be stuck.",
+      "comment": ""
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+<div class="status-container">
+  @for (system of systems; track system.name) {
+    <app-system-status-item-component
+      [systemName]="system.name"
+      [percentage]="system.percentage">
+    </app-system-status-item-component>
+  }
+</div>

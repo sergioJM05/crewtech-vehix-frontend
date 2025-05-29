@@ -1,0 +1,53 @@
+.main-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 40px;
+  gap: 5rem;
+}
+
+mat-card-title{
+  font-weight: lighter;
+  font-size: clamp(14px, 2.5vw, 5vw);
+}
+
+.personal-info-col-1{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border: 1px solid blue;
+  width: 70%;
+  gap: 10px;
+}
+
+.button-container-col-1{
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  gap: 5rem;
+  margin-right: 2rem;
+}
+
+.personal-info-col-2{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid green;
+}
+
+.profile-picture{
+  min-width: 100px;
+  max-width: 300px;
+}
+
+
+@media (max-width: 600px) {
+  .main-container {
+    flex-direction: column;
+  }
+  .personal-info-col-1, .personal-info-col-2 {
+    width: 100%;
+    border: none;
+  }
+}

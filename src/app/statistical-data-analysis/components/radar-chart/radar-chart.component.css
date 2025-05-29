@@ -1,0 +1,39 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.radar-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 600px;
+  /*border: 1px solid #000;*/}
+
+canvas {
+  margin: 0;
+  padding: 0;
+  /*border: 1px solid #000;*/
+  text-align: center;
+  justify-items: center;
+}
+
+.main-container{
+  display: flex;
+  text-align: center;
+  align-items: center;
+}
+
+.report-pronostic-container{
+  font-family: 'Roboto', sans-serif;
+  font-size: 30px;
+  text-align: center;
+  margin-top: 20px;
+
+}
+
+@media screen and (max-width: 3000px) {
+  .main-container{
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+}

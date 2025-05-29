@@ -1,0 +1,13 @@
+mat-button-toggle-group {
+  --mat-sys-primary:black;
+  --mat-sys-secondary-container:white;
+  --mat-sys-outline: black;
+
+
+}
+
+mat-button-toggle{
+  color: black;
+  font-family: montserrat, sans-serif;
+}
+

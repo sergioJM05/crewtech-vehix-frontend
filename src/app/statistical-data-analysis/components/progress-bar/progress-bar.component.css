@@ -1,0 +1,22 @@
+mat-progress-bar > .mdc-linear-progress__bar-inner{
+  border-color: black;
+  background-color: black;
+}
+
+.main-container{
+  margin-top: 1.5rem;
+}
+
+.text-container{
+  text-align: center;
+}
+
+.health-container{
+  font-family: Montserrat, sans-serif;
+  font-size: 25px;
+  font-weight: bold;
+}
+.note-container{
+  color: #CCCCCC;
+  font-size: 15px;
+}

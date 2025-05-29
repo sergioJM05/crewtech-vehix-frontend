@@ -1,0 +1,9 @@
+.generate-btn {
+  background-color: black;
+  font-family: "montserrat", sans-serif;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;        /* Tamaño de letra más grande */
+  padding: 14px 32px;     /* Más espacio alrededor del texto */
+  border-radius: 8px;     /* Bordes más suaves */
+}

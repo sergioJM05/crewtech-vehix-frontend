@@ -1,0 +1,70 @@
+.app {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  width: 98vw;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.overlay-text {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  color: white;
+  padding: 8px;
+  border-radius: 4px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  font-size: 22px;
+  text-align: left;
+  z-index: 1;
+}
+.right-column {
+  flex: 1;
+  min-width: 300px;
+}
+.repair-button {
+  margin-top: 16px;
+  padding: 12px 16px;
+  background-color: #000000;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  font-size: 22px;
+  text-align: center;
+  width: 100%;
+}
+.repair-button:hover {
+  background-color: #000000;
+}
+
+@media (min-width: 768px) {
+  .left-column {
+    width: 50%;
+  }
+  .right-column {
+    width: 50%;
+  }
+}
+
+@media (max-width: 480px) {
+  .overlay-text {
+    font-size: 18px;
+  }
+  .repair-button {
+    font-size: 18px;
+  }
+  .app {
+    flex-direction: column;
+  }
+  .left-column,
+  .right-column {
+    width: 100%;
+  }
+}

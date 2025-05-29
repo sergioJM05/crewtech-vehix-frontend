@@ -1,0 +1,12 @@
+<div class="issues-box">
+  <h3>Simple Issues</h3>
+  <ul>
+    @for (issue of issues; track issue.id) {
+      <li class="issue-item">
+        <span class="icon">{{ getIssueIcon(issue.description) }}</span>
+        <span class="text">{{ issue.description }}</span>
+        <span class="urgency-dot" [class]="getUrgencyClass(issue.urgency)"></span>
+      </li>
+    }
+  </ul>
+</div>

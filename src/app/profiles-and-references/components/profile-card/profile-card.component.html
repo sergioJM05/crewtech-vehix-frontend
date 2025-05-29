@@ -1,0 +1,53 @@
+<div class="main-container">
+  <div class="personal-info-col-1">
+
+    <mat-card-title>{{"profileCard.title" | translate}}</mat-card-title>
+
+    <mat-form-field class="example-full-width">
+      <mat-label>{{"register.name"|translate}}</mat-label>
+      <input matInput placeholder='{{currentUser?.name}}' [(ngModel)]="name" [disabled]="buttonDesactivateEdit">
+    </mat-form-field>
+
+    <mat-form-field class="example-full-width">
+      <mat-label>{{"register.surname"|translate}}</mat-label>
+      <input matInput placeholder='{{currentUser?.lastName}}' [(ngModel)]="surname" [disabled]="buttonDesactivateEdit" >
+    </mat-form-field>
+
+    <mat-form-field class="example-full-width">
+      <mat-label>{{"register.email"|translate}}</mat-label>
+      <input matInput value='{{currentUser?.email}}' disabled >
+    </mat-form-field>
+
+    <mat-form-field class="example-full-width">
+      <mat-label>{{"register.password"|translate}}</mat-label>
+      <input matInput placeholder='{{currentUser?.password}}' [(ngModel)]="password" [disabled]="buttonDesactivateEdit" >
+    </mat-form-field>
+
+    <mat-form-field class="example-full-width">
+      <mat-label>{{"register.phoneNumber"|translate}}</mat-label>
+      <input matInput placeholder='{{currentUser?.phone}}' [(ngModel)]="phoneNumber" [disabled]="buttonDesactivateEdit" >
+    </mat-form-field>
+
+    <mat-form-field class="example-full-width">
+      <mat-label>{{"register.dni"|translate}}</mat-label>
+      <input matInput value='{{currentUser?.dni}}' disabled >
+    </mat-form-field>
+
+    <div class="button-container-col-1">
+      <button mat-raised-button (click)="updateUserInformation()">{{ "button.save" | translate}}</button>
+      <button mat-raised-button (click)="changeToEditMode()">{{ "button.edit" | translate}}</button>
+    </div>
+
+  </div>
+
+  <div class="personal-info-col-2">
+    <div class="img-container-col-2">
+      <img src="https://cdn-icons-png.flaticon.com/512/711/711769.png" alt="Profile Picture" class="profile-picture">
+    </div>
+    <div class="button-container-col-2">
+      <button mat-raised-button>{{ "button.logout" | translate}}</button>
+      <button mat-raised-button>{{ "button.activateDriverMode" | translate}}</button>
+    </div>
+
+  </div>
+</div>

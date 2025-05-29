@@ -1,0 +1,19 @@
+<div class="main-container">
+  <div class="vehicle-container">
+    @for (vehicle of vehicleList; track vehicle) {
+      <app-show-car
+        [sectionTitle]="sectionTitle"
+        [nameCar]="vehicle.name"
+        [imageCar]="vehicle.imageUrl">
+      </app-show-car>
+    }
+  </div>
+  <div class="tables-container">
+    <div class="container-alerts">
+      <app-future-problems></app-future-problems>
+    </div>
+    <div class="container-repairs">
+      <app-radar-chart></app-radar-chart>
+    </div>
+  </div>
+</div>

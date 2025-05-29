@@ -1,0 +1,28 @@
+<div class="table-container-main">
+<h2>Repairs attended</h2>
+<table mat-table [dataSource]="repairsList" class="mat-elevation-z8">
+
+  <!-- Name Column -->
+  <ng-container matColumnDef="type">
+    <th mat-header-cell *matHeaderCellDef> Problem Type </th>
+    <td mat-cell *matCellDef="let repair"> {{repair.problemType}} </td>
+  </ng-container>
+
+  <!-- Type Column -->
+  <ng-container matColumnDef="improvement">
+    <th mat-header-cell *matHeaderCellDef> Improvement </th>
+    <td mat-cell *matCellDef="let repair"> {{repair.improvementPercentage}} </td>
+  </ng-container>
+
+  <!-- Status Column -->
+  <ng-container matColumnDef="date">
+    <th mat-header-cell *matHeaderCellDef> Date </th>
+    <td mat-cell *matCellDef="let repair"> {{repair.repairDate}} </td>
+  </ng-container>
+
+  <!-- Table Header and Rows -->
+  <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+  <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
+
+</table>
+</div>

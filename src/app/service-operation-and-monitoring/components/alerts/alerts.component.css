@@ -1,0 +1,10 @@
+.table-container-main{
+  /*border: 1px solid #000;*/
+}
+.table-container-main h2{
+  font-family: 'Montserrat', sans-serif;
+  font-size:30px;
+  text-align: left;
+  font-weight: bold;
+  /*border: 1px solid #000;*/
+}

@@ -1,0 +1,20 @@
+.status-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 10px;
+  position: relative;
+}
+
+.percentage-label {
+  position: absolute;
+  top: 38px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.system-name {
+  margin-top: 10px;
+  text-align: center;
+  font-size: 14px;
+}

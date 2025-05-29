@@ -1,0 +1,68 @@
+.main-container {
+  margin-top: 3rem;
+  display: flex; /* Habilitamos Flexbox */
+  flex-direction: row; /* Alineamos los elementos en fila (izquierda a derecha) */
+  padding-right: 90px;
+  gap: 20px; /* Espacio entre los contenedores principales */
+
+}
+
+
+.vehicle-container {
+  align-items: center;
+  margin: auto;
+  text-align: center;
+
+}
+
+
+.tables-container {
+  flex: 1; /* El contenedor de tablas ocupa el espacio disponible */
+  display: flex;
+  gap: 20px; /* Espacio entre las tablas */
+
+}
+::ng-deep app-show-car img {
+  width: 800px !important;
+}
+
+.container-alerts {
+  /* No necesitamos flex-grow aquí, ya que tables-container se encarga del espacio */
+  width: 100%; /* Aseguramos que ocupe el ancho completo */
+}
+
+
+.container-repairs {
+  /* No necesitamos flex-grow aquí */
+  width: 100%; /* Aseguramos que ocupe el ancho completo */
+
+}
+
+
+.container-card {
+  text-align: center;
+  align-items: center;
+}
+
+
+/* Responsive layout (opcional) */
+@media (max-width: 1200px) {
+  .main-container {
+    flex-direction: column; /* Apilamos todo verticalmente en pantallas pequeñas */
+    padding: 20px;
+  }
+  .tables-container {
+    flex: 1;
+    display: flex;
+    flex-direction: column; /* ✅ Esto pone los bloques uno debajo del otro */
+    gap: 20px;
+  }
+
+  .vehicle-container, .tables-container {
+    width: 100%; /* Ocupan el ancho completo en pantallas pequeñas */
+  }
+  ::ng-deep app-show-car img {
+    width: 400px !important;
+  }
+
+}
