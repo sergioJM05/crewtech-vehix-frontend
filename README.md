@@ -2,9 +2,43 @@
 
 vitaly edit readme
 This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.2.11.
-dayro edit  
-fix dayro edit
-piero update
+dasdasdasdsadasdasdsad
+HASTA ACA SERGUI EDUITI
+HOLAAAAAAAAAAAAA
+dahsudgbusakdsa
+huawufjodas
+145667454
+TOÑITO UWU
+dsadasdas
+dsadnjashjdasdas}
+dsajdasjidsa
+dasdkasduiasdas
+dasjidasjidas
+dasdujiohasiduasdas
+dasjidujiasdas
+dklsadijasdias
+dasdhjiobasdas
+dasdipgjasdas
++dashjiobdasd+
+sadaspbhijudas
++daspbhuiodas+
+ldaspdbhias
+
+gdjhaskohjadsvhjdsagbj
+OÑA
+TOÑO
+UWU
+UNU
+78
+owowoCam
+vitaly goat
+dsahiodasbhuasdbhuodasbnjipasdnjkp
+ULTIMO EDIT DE SERTGIO
+
+ULTIMA VERSION DE TOÑO
+ultimo de ultimo de ultimo edit de sergio
+## vitaly edit readme
+
 ## Development server
 
 To start a local development server, run:
@@ -60,3 +94,4 @@ Angular CLI does not come with an end-to-end testing framework by default. You c
 ## Additional Resources
 
 For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+
