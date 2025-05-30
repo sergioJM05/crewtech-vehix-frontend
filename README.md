@@ -5,6 +5,8 @@ This project was generated using [Angular CLI](https://github.com/angular/angula
 dayro edit  
 fix dayro edit
 piero update
+antonio update
+
 ## Development server
 
 To start a local development server, run:
