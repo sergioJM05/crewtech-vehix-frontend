@@ -2,12 +2,14 @@
 
 vitaly edit readme
 This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.2.11.
-dayro edit  
-fix dayro edit
-piero update
-antonio update
-agudgasudasu
-dhbyuasduasnbidas
+sergio edito esto
+sergio edito esto 2
+# CrewtechVehixFrontend
+# CrewtechVehixFrontend
+# CrewtechVehixFrontend
+# CrewtechVehixFrontend
+# CrewtechVehixFrontend
+
 
 ## Development server
 
