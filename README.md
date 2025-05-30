@@ -4,6 +4,11 @@ vitaly edit readme
 This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.2.11.
 dasdasdasdsadasdasdsad
 HASTA ACA SERGUI EDUITI
+HOLAAAAAAAAAAAAA
+dahsudgbusakdsa
+huawufjodas
+145667454
+TOÑITO UWU
 ## vitaly edit readme
 
 ## Development server
