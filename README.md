@@ -37,6 +37,8 @@ ULTIMO EDIT DE SERTGIO
 
 ULTIMA VERSION DE TOÑO
 ultimo de ultimo de ultimo edit de sergio
+if(owow=1)
+  return owo
 ## vitaly edit readme
 
 ## Development server
